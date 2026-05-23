@@ -1,0 +1,150 @@
+body {
+    background-image: url(/images/banner.png);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    background-color: #000000;
+   
+
+}
+
+.header h1 {
+    background: linear-gradient(90deg, #ffffff, rgb(170, 0, 255));
+    background-clip: text;
+    font-size: 48px;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.header button {
+    height: 4rem;
+    width: 15rem;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff30;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+
+}
+
+.header button:hover {
+    height: 4rem;
+    width: 15rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 0, 255);
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    scale: 1.1;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+
+}
+
+.NAV {
+    background-color: #ffffff1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    z-index: 9999;
+}
+
+.NAV a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.NAV a:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.NAV a:hover {
+    transform: translateY(-5px);
+    color: rgb(170, 0, 255);
+}
+
+.NAV a svg {
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+    padding-left: 3rem;
+
+    padding-right: 3rem;
+
+}
+
+.footer h1 {
+    background: linear-gradient(90deg, #ffffff, rgb(170, 0, 255));
+    background-clip: text;
+    font-size: 28px;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+main {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main li {
+    color: rgb(170, 0, 255);
+    background-color: #3b0150;
+    list-style: none;
+    border-radius: 2rem;
+    width: auto;
+
+}
+
+main h1 {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+
+main h2 {
+    color: rgb(170, 0, 255);
+    font-size: 5rem;
+    margin-top: 0.5rem;
+    line-height: 0.9;
+}
+
+main p {
+    color: #ffffff83;
+     max-width: 520px;
+  text-align: center;
+
+}
