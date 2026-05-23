@@ -8,10 +8,12 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
+
 body {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -56,7 +58,7 @@ body {
     position: sticky;
     align-items: center;
     justify-content: space-between;
-    background-color: #0000028d;
+    background-color: #00000268;
     box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.3);
     padding: 0 3rem;
 }
@@ -78,6 +80,7 @@ body {
     border-radius: 1.5rem;
     font-size: 1.2rem;
     cursor: pointer;
+    border: 2px solid #9e9c9ca1;
 
 
 }
@@ -90,6 +93,7 @@ body {
     border-radius: 1.5rem;
     font-size: 1.2rem;
     scale: 1.1;
+    border: 2px solid #9e9c9ca1;
     cursor: pointer;
     transition: transform 0.2s ease, color 0.2s ease;
 
@@ -134,8 +138,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #00000287;
-    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.3);
+    background-color: #0000023e;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.3);
     position: relative;
     bottom: 0;
     width: 100%;
@@ -167,12 +171,13 @@ main {
 }
 
 .versao {
-    color: rgb(170, 0, 255);
-    background-color: #3b0150;
+    color: rgb(255, 255, 255);
+    background-color: #bb00ff;
     text-align: center;
     list-style: none;
     border-radius: 2rem;
     width: 12rem;
+    height: 1.4rem;
     margin-bottom: 3rem;
 
 }
@@ -208,9 +213,11 @@ main h3 {
 
 .container ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1.5rem;
-    max-width: 48rem;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 .card {
@@ -218,14 +225,95 @@ main h3 {
     align-items: center;
     color: white;
     background-color: #000002;
-    width: 15rem;
-    height: auto;
+    width: 32rem;
+    height: 15rem;
+
     border-radius: 2rem;
     padding: 1rem;
 }
 
 .card svg {
-    width: 3rem;
+    width: 4rem;
+    height: 2.5rem;
     background-color: #3b0150;
     border-radius: 4rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card p {
+    color: #9e9c9ca1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.recursos {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 12rem;
+
+}
+
+.recursos h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.recursos h3{
+    color: rgb(117, 117, 117);
+    margin-bottom: 1rem;
+}
+.recursos p{
+    color: white;
+    margin-bottom: 1rem;
+}
+.botao{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+.ativo{
+    color: rgb(170, 0, 255);
+}
+.comece{
+    background: linear-gradient(90deg, #ffffff, rgb(170, 0, 255));
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 6rem;
+    border: 2px #ffffffa1;
+    margin-right: 0.5rem;
+}
+.demo{
+    background-color: #ffffff00;
+    color: #9e9c9ca1;
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 6rem;
+    border: 2px solid #9e9c9ca1;
+
+}
+.demo:hover{
+    background-color: #ffffff00;
+    color: #ffffff;
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 6rem;
+    border: 2px solid #ffffff;
+}
+.comece:hover{
+    scale: 1.1;
 }
