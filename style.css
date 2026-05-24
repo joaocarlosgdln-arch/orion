@@ -293,18 +293,18 @@ main h3 {
     background: linear-gradient(90deg, #3b0150, rgb(170, 0, 255));
     cursor: pointer;
     color: white;
-    width: 10rem;
-    height: 3rem;
+    width: 15rem;
+    height: 4rem;
     border-radius: 6rem;
     border: 2px #ffffffa1;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 .demo{
     background-color: #ffffff00;
     color: #9e9c9ca1;
     cursor: pointer;
-    width: 8rem;
-    height: 3rem;
+    width: 10rem;
+    height: 4rem;
     border-radius: 6rem;
     border: 2px solid #9e9c9ca1;
 
@@ -313,8 +313,8 @@ main h3 {
     background-color: #ffffff00;
     color: #ffffff;
     cursor: pointer;
-    width: 8rem;
-    height: 3rem;
+    width: 10rem;
+    height: 4rem;
     border-radius: 6rem;
     border: 2px solid #ffffff;
 }
