@@ -17,3 +17,33 @@ function criarEstrela() {
   }, duracao * 1000);
 }
 setInterval(criarEstrela, 100);
+
+const secoes = [
+  { id: "home", index: 0 },
+  { id: "section", index: 1 },
+];
+
+const links = document.querySelectorAll(".NAV a svg");
+
+function setAtivo(index) {
+  links.forEach((svg, i) => {
+    svg.classList.toggle("ativo", i === index);
+  });
+}
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const secao = secoes.find((s) => s.id === entry.target.id);
+        if (secao) setAtivo(secao.index);
+      }
+    });
+  },
+  { threshold: 0.5 }
+);
+
+secoes.forEach(({ id }) => {
+  const el = document.getElementById(id);
+  if (el) observer.observe(el);
+});
