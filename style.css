@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -15,8 +16,6 @@ body {
 }
 
 body {
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #050515;
     display: flex;
     flex-direction: column;
@@ -54,7 +53,7 @@ body {
 .header {
     display: flex;
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     position: sticky;
     align-items: center;
     justify-content: space-between;
@@ -171,35 +170,39 @@ main {
 }
 
 .versao {
-    color: rgb(255, 255, 255);
-    background-color: #bb00ff;
+    color: #f6dfff;
+    background-color: #3b0150;
     text-align: center;
     list-style: none;
     border-radius: 2rem;
-    width: 12rem;
-    height: 1.4rem;
+    width: 20rem;
+    height: 3rem;
     margin-bottom: 3rem;
+    font-size: 1.5rem;
+     border: 6px solid #bb00ff;
+
 
 }
 
 .main {
     color: white;
-    font-size: 5rem;
+    font-size: 10rem;
     margin-bottom: 0;
     line-height: 0.9;
 }
 
 main h2 {
     color: rgb(170, 0, 255);
-    font-size: 5rem;
-    margin-top: 0.5rem;
+    font-size: 10rem;
+    margin-top: 3rem;
     line-height: 0.9;
     margin-bottom: 4rem;
 }
 
 main p {
     color: #ffffff83;
-    max-width: 520px;
+    max-width: 1024px;
+    font-size: 2rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -287,8 +290,9 @@ main h3 {
     color: rgb(170, 0, 255);
 }
 .comece{
-    background: linear-gradient(90deg, #ffffff, rgb(170, 0, 255));
+    background: linear-gradient(90deg, #3b0150, rgb(170, 0, 255));
     cursor: pointer;
+    color: white;
     width: 10rem;
     height: 3rem;
     border-radius: 6rem;

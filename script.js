@@ -8,7 +8,7 @@ function criarEstrela() {
   estrela.style.height = `${tamanho}px`;
 
   estrela.style.left = `${Math.random() * 100}vw`;
-  const duracao = Math.random() * 5 + 3;
+  const duracao = Math.random() * 5 + 0;
   estrela.style.animationDuration = `${duracao}s`;
   estrela.style.opacity = Math.random();
   ceu.appendChild(estrela);
