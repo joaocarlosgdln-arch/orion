@@ -119,7 +119,7 @@ body {
 .NAV a {
     display: inline-block;
     color: rgb(255, 255, 255);
-    transition: transform 0.2s ease, color 0.2s ease;
+    transition: transform 0.1s ease, color 0.2s ease;
 }
 
 .NAV a:not(:last-child) {
@@ -127,7 +127,7 @@ body {
 }
 
 .NAV a:hover {
-    transform: translateY(-5px);
+    
     color: rgb(170, 0, 255);
 }
 
@@ -295,6 +295,7 @@ main h3 {
 }
 .ativo{
     color: rgb(170, 0, 255);
+    transform: translateY(-5px);
 }
 .comece{
     background: linear-gradient(90deg, #3b0150, rgb(170, 0, 255));
